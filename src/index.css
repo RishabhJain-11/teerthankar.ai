@@ -11,16 +11,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: 'Font';
+  /* src: url('./fonts/YsabeauSC-VariableFont_wght.ttf'); */
+  src: url('./fonts/MPLUSCodeLatin-VariableFont_wdth\,wght.ttf');
+}
+
+body {
+  font-family: 'Font';
+}
+
 * {
   text-decoration: none;
   list-style: none;
-  background-color:steelblue;
-  color: aliceblue;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color:white;
 }
 
-code {
-  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.logo {
+  height: 3em;
+  /* Match the height of the text */
+  width: auto;
+  /* Maintain the aspect ratio */
+  display: inline-block;
+  /* Ensure the image is inline */
+  vertical-align: middle;
+  /* Align the image vertically in the middle */
 }
+
